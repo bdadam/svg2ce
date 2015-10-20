@@ -1,0 +1,31 @@
+{
+  "name": "svg2ce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "svg2ce": "bin/svg2ce"
+  },
+  "keywords": [
+    "svg",
+    "icon",
+    "icons",
+    "custom element",
+    "custom elements",
+    "html5",
+    "web components",
+    "polymer"
+  ],
+  "author": "Adam Beres-Deak <me@bdadam.com>",
+  "license": "MIT",
+  "preferGlobal": "true",
+  "dependencies": {
+    "async": "^1.4.2",
+    "bluebird": "^2.10.2",
+    "glob": "^5.0.15",
+    "svgo": "^0.5.6",
+    "uglify-js": "^2.5.0",
+    "yargs": "^3.27.0"
+  }
+}
